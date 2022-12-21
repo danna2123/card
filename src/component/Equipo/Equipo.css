@@ -1,0 +1,87 @@
+.Equipo {
+    position: relative;
+    width: 406px;
+    height: 572px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(248, 134, 7, 0.25);
+    border-radius: 30px;
+}
+
+.Equipo img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 275px;
+    top: 63px;
+    border-radius: 30px;
+    box-shadow: -3.34535px 2.50901px 0px #211814;
+}
+
+.Equipo p {
+    position: absolute;
+    width: 300.24px;
+    height: 32px;
+    left: 61px;
+    top: 144px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 110%;
+    color: #211814;
+}
+
+p.occupation {
+    width: 300.24px;
+    height: 17px;
+    left: 61px;
+    top: 173px;
+    font-weight: 600;
+    font-size: 15.0541px;
+}
+
+p.nacionalida {
+    width: 300.24px;
+    height: 15px;
+    left: 61px;
+    top: 202px;
+    font-weight: 400;
+    font-size: 15.0541px;
+}
+
+p.member-describe {
+    width: 238.36px;
+    height: 34.29px;
+    left: 161px;
+    top: 273px;
+    font-weight: 400;
+    font-size: 13.3814px;
+}
+
+p.Experiencia {
+    width: 238.36px;
+    height: 56.87px;
+    left: 161px;
+    top: 350px;
+    font-weight: 400;
+    font-size: 13.3814px;
+}
+
+p.Aficiones {
+    width: 238.36px;
+    height: 30.11px;
+    left: 161px;
+    top: 425px;
+    font-weight: 400;
+    font-size: 13.3814px;
+}
+
+p.contacto {
+    width: 364.64px;
+    height: 15px;
+    left: 75px;
+    top: 543px;
+    font-weight: 400;
+    font-size: 15.0541px;
+}
