@@ -1,0 +1,49 @@
+.Mapax{
+    box-sizing: border-box;
+    position: absolute;
+    width: 50.03px;
+    height: 572.16px;
+    left: 0px;
+    border: 2.50901px solid #F88607;
+    border-radius: 25px 0px 0px 25px;
+    right: 40.86%;
+    top: 1%;
+    bottom: 0%;
+    background: #15203B;
+}
+
+h1{
+    position: absolute;
+    left: -60px;
+    right: -45.15%;
+    top: 76.16%;
+    bottom: 12.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F88607;
+    transform: rotate(-90deg);
+}
+
+div.barra {
+    position: relative;
+    width: 396px;
+    height: 20px;
+    left: 10px;
+    top: -60px;
+    background: #F88607;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+div.line {
+    position: absolute;
+    width: 394.75px;
+    height: 1.67px;
+    left: 20px;
+    top: 250px;
+    background: #211814;
+}
+
+

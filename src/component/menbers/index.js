@@ -1,40 +1,32 @@
 import React from "react";
 
 import { Equipo } from "../Equipo/index";
-import danna from "../assets/images/Danna.jpg";
+import dannaPerfil from "../assets/images/dannaPerfil.png";
+import dannarear from "../assets/images/images1.png";
+import "./menbers.css";
 
 function Members() {
-    const responsive = {
-        superLargeDesktop: {
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-            },
-            desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
-            },
-            tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-            },
-            mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-            }
-    }
     return (
-        <section className="Menber">
-            <h2>Miembros</h2>
+        <section className="Member">
             <div>
                 <Equipo
-                    image={danna}
-                    imageAlt='Foto de Miembro'
+                    image1={dannarear}
+                    imageAlt1='foto de portada'
+                    image2={dannaPerfil}
+                    imageAlt2 ='Foto de Miembro perfil'
                     text = "Danna Lozano"
-                    descrip = "Breve descripcion de mi persona"
+                    occupation = "developer from"
+                    nacionalidad = "Colombia"
+                    describe = "Breve descripcion de mi persona"
                     Experiencia = "Proyectos que a realizado con Mapax"
                     aficiones = "Sus hobbes"
                     contacto = "redes sociales"
                 />
+            </div>
+            <div className="line"></div>
+            <div className="barra"></div>
+            <div className="Mapax">
+                <h1>MAPAX</h1>
             </div>
         </section>
     )
